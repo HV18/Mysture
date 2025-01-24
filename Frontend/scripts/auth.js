@@ -2,13 +2,13 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.11.0/fireba
 import { getAuth, signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.11.0/firebase-auth.js";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDzWSDIatZKihXy2EX58T_-SWUkHNgFbe0",
-    authDomain: "mysture-demo-v0.firebaseapp.com",
-    databaseURL: "https://mysture-demo-v0-default-rtdb.firebaseio.com",
-    projectId: "mysture-demo-v0",
-    storageBucket: "mysture-demo-v0.appspot.com",
-    messagingSenderId: "929189778221",
-    appId: "1:929189778221:web:a7a64adc6d33bf9649f9a4",
+    apiKey: "",
+    authDomain: "",
+    databaseURL: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: "",
 };
 
 const app = initializeApp(firebaseConfig);
